@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- Blue-only palette ---- */
+  --color-void: #050b18;       /* deep space navy — base background */
+  --color-midnight: #0b1d3a;   /* panels, cards, section bands */
+  --color-harbor: #123059;     /* borders, dividers, secondary panels */
+  --color-core: #1e5aa8;       /* primary accent — buttons, key lines */
+  --color-sky: #4fa6e8;        /* secondary accent — links, highlights */
+  --color-ice: #bfe1ff;        /* light text on dark, soft highlights */
+  --color-frost: #eaf4ff;      /* near-white body text on dark */
+
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "Space Grotesk", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-void);
+  color: var(--color-frost);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-core);
+  color: var(--color-frost);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-void);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-harbor);
+  border-radius: 6px;
+}
+
+a {
+  color: var(--color-sky);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-sky);
+  outline-offset: 3px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}

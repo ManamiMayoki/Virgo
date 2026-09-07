@@ -49,7 +49,7 @@ export default function JourneySection() {
           What actually happened
         </p>
         <h2 className="font-display mt-5 max-w-xl text-4xl text-frost sm:text-5xl">
-          We tease him about it. He knows it still hurts.
+          How we become Friends, and how we got to this point. The story is a little long, but it’s worth it.
         </h2>
         <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-ice/70">
           Some of this is funny to us now, in the way hard things become

@@ -47,12 +47,10 @@ export default function BookShelf() {
           Between pages
         </p>
         <h2 className="font-display mt-5 text-4xl text-frost sm:text-5xl">
-          He reads the way most people scroll
+          We Know Your Favorite Writer is "Haemin Sunim"
         </h2>
         <p className="mx-auto mt-5 max-w-md text-[15px] leading-relaxed text-ice/75">
-          Slowly, then all at once, then he's quoting a paragraph from a book
-          he finished two years ago. Somewhere in that shelf is the patience
-          this year kept asking him for.
+          So,we choose to give you ur favorite writer's book, and we hope you can find your favorite book in our bookshelf.
         </p>
       </div>
 

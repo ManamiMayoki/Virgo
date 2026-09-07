@@ -10,6 +10,8 @@ import lateNightWorkingTogether from '../assets/images/late_night_working_togeth
 import tasinBirthdayCelebration from '../assets/images/tasin_birthday_celebration.jpeg'
 import tasinBirthdayMoment from '../assets/images/tasin_birthday_moment.jpeg'
 import theTrioAsAPresentor from '../assets/images/the_trio_as_a_presentor.jpeg'
+import rainRainGoAway from '../assets/images/rain_rain_go_away.jpeg'
+import neelMakeupKorce from '../assets/images/neel_makeup_korce.jpeg'
 
 export const gallery = [
   { src: theCutieGroup, caption: 'The cutie group, as always' },
@@ -20,4 +22,6 @@ export const gallery = [
   { src: tasinBirthdayCelebration, caption: "Tasin's birthday — he never misses one" },
   { src: tasinBirthdayMoment, caption: 'Same birthday, one more good moment' },
   { src: weWereSoCute, caption: 'We were so cute, honestly' },
+  { src: rainRainGoAway, caption: 'Rain, rain, go away, come again another day' },
+  { src: neelMakeupKorce, caption: 'Neel makeup Korce' },
 ]

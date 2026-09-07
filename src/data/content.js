@@ -4,7 +4,7 @@ export const journey = [
   {
     year: 'The start',
     title: 'Muri parties',
-    text: "I still remember how our friendship story begin. We didn't meet in the standard way. It started more unexpected way with Jannat over a muri party and finding we each other most silly way.",
+    text: "I still remember how our friendship story begin. We didn't meet in the standard way. It started more unexpected way with Jannat over a muri party and finding each other most silly way.",
   },
   {
     year: 'The spark',
@@ -39,7 +39,7 @@ export const journey = [
   {
     year: 'The Advice',
     title: 'You should follow Tasin\'s Three Rules',
-    text: "First: you should listen to Tasin's advice. Second: you should listen to Tasin. Third: you should listen to Tasin. Our advice to you, don't argue with Tasin—you will never win. Take note, Neel!",
+    text: "First: you should listen to Tasin's advice. Second: you should listen to Tasin's advice. Third: you should listen to Tasin's advice. Our advice to you, don't argue with Tasin—you will never win. Cause,she is always right. Take note, Neel!",
   },
 
 
@@ -47,20 +47,20 @@ export const journey = [
 
 export const wishes = [
   {
-    name: "Tasin's Three Rules",
-    text: "First: you should listen to Tasin's advice. Second: you should listen to Tasin. Third: don't argue with Tasin—you will never win. Take note, Neel!",
+    name: 'Beyond the Subject',
+    text: "We hope you don't feel depressed about your subject anymore. We know how capable you are and that you always do better in the end. Keep pushing forward and fulfill your dreams so you leave no regrets behind.",
   },
   {
-    name: 'The Reliable One',
-    text: "The best thing about you? You NEVER cancel a meeting. No matter what, you are always there with us.",
+    name: 'Always In Your Corner',
+    text: "We wish that you always continue to stay close with us. No matter what happens, we will always be right here supporting you. Don't forget us—because we'll never forget you.",
   },
   {
-    name: 'The Catalyst',
-    text: "You didn't get your nickname by chance. Thank you for being with us and being the catalyst that brings us all together.",
+    name: "Jannat's Master Plan",
+    text: "Yes, we are late wishing you, but it was 100% intentional! We wanted you to think we actually forgot your birthday just to pull off the surprise. Blame Jannat for the scheme—hope it caught you completely off guard!",
   },
   {
-    name: 'On Nicknames & Memories',
-    text: "From giving each other silly nicknames to those full-night sessions—we've built something truly special. Happy Birthday, Neel!",
+    name: 'Happy Birthday!',
+    text: "So one more time, loud and clear: Happy Birthday, Neel! We're so glad you're in our lives.",
   },
 ]
 
@@ -69,5 +69,5 @@ export const hero = {
   eyebrow: 'Every sky needs one',
   title: 'Neel',
   subtitle:
-    'The catalyst, the one who never cancels, and the core of our unusual journey. This corner of the internet is mapped today just for him.',
+    'The catalyst, the one who never cancels, and the core of our unusual journey. This corner of the internet is mapped today just for Our Blue Boy.',
 }

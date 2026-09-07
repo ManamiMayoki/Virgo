@@ -1,4 +1,4 @@
-# neel-constellation
+# Virgo
 
 A birthday website for Neel — a personal constellation mapped entirely in blue.
 
@@ -9,8 +9,7 @@ one blue palette on purpose.
 **Live sections, in order:** a 3D constellation hero (an open book rising into
 a shooting-star trail — the brightest star is Neel) → a blue sky / autumn
 parallax section → a bookshelf tribute → an honest timeline of the
-CSE → Data Science → Chemistry story → a hope section built around Apu bhai's
-Botany-to-Google story → a photo gallery → a wishes wall → a closing blessing.
+CSE → Data Science → Chemistry story →  a photo gallery → a wishes wall → a closing blessing.
 
 ---
 
@@ -38,7 +37,7 @@ no backend.
 
 ### Deploying to GitHub Pages (quick version)
 
-1. Push this repo to GitHub as `neel-constellation`.
+1. Push this repo to GitHub as `Virgo`.
 2. `npm install -D gh-pages`
 3. Add to `package.json` scripts: `"deploy": "gh-pages -d dist"`
 4. `npm run build && npm run deploy`
@@ -63,7 +62,7 @@ export const gallery = [
 ```
 
 Any entry left with `src: ''` (or a broken path) automatically falls back to a
-placeholder tile, so you can add captions before you have every photo ready.
+placeholder tile, so it can add captions before every photo ready.
 
 ## Editing the words
 

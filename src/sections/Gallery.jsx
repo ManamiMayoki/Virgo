@@ -10,8 +10,9 @@ function Tile({ item, i }) {
 
   return (
     <figure
-      className="gallery-tile group relative aspect-[4/5] overflow-hidden rounded-sm bg-midnight ring-1 ring-harbor"
-      style={{ gridRowEnd: i % 3 === 1 ? 'span 2' : 'span 1' }}
+      className={`gallery-tile group relative overflow-hidden rounded-sm bg-midnight ring-1 ring-harbor/30 ${
+        i % 3 === 1 ? 'row-span-2' : 'row-span-1'
+      }`}
     >
       {!failed ? (
         <img
@@ -19,7 +20,7 @@ function Tile({ item, i }) {
           alt={item.caption}
           loading="lazy"
           onError={() => setFailed(true)}
-          className="h-full w-full object-cover grayscale-0 transition duration-700 [filter:sepia(1)_hue-rotate(175deg)_saturate(2.4)] group-hover:scale-105"
+          className="h-full w-full object-cover transition-all duration-700 [filter:sepia(1)_hue-rotate(175deg)_saturate(2.4)] group-hover:scale-105 group-hover:filter-none"
         />
       ) : (
         <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-harbor to-midnight px-4 text-center">
@@ -71,7 +72,10 @@ export default function Gallery() {
           A few frames, out of many
         </h2>
 
-        <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3" style={{ gridAutoRows: '10rem' }}>
+        <div
+          className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 grid-flow-row-dense"
+          style={{ gridAutoRows: '12rem' }}
+        >
           {gallery.map((item, i) => (
             <Tile key={i} item={item} i={i} />
           ))}

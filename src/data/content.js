@@ -2,55 +2,72 @@
 
 export const journey = [
   {
-    year: 'The plan',
-    title: 'IIT, Statistics, Data Science, Chemistry',
-    text: "Four choices, ranked with a steady hand. IIT and Statistics sat closest to CSE — close enough to build a life around. Chemistry sat last, a formality, a subject he wrote down because a form needs four lines.",
+    year: 'The start',
+    title: 'Muri parties',
+    text: "I still remember how our friendship story begin. We didn't meet in the standard way. It started more unexpected way with Jannat over a muri party and finding we each other most silly way.",
   },
   {
-    year: 'The nudge',
-    title: 'Some advice, kindly meant',
-    text: 'A senior — someone a year ahead in Statistics and Data Science — told him Chemistry was the safer bet, that IIT would follow from it. It sounded reasonable. It was said with confidence. Neel listened, the way you listen to someone who seems to know the road.',
+    year: 'The spark',
+    title: 'The Science Club',
+    text: "Then with Neel in the Science Club and then the group began to take shape.",
   },
   {
-    year: 'The first result',
-    title: 'Data Science, actually',
-    text: "For a moment, the list worked out. He got Data Science — not CSE, but close, and his own. It felt like proof that the plan hadn't failed.",
+    year: 'The connection',
+    title: 'Hallways & Mutual friends',
+    text: "Tasin was already in the picture from sharing the same hall, and Bayezid joined the fold through Tanjim. Piece by piece, everyone become together.",
   },
   {
-    year: 'The migration',
-    title: 'And then it moved',
-    text: "Auto-migration reshuffled the seats after him, and the seat he'd been given quietly changed hands. When the dust settled, Chemistry was what was left standing.",
+    year: 'The hub',
+    title: 'Basecamp',
+    text: "Then we were all together at Basecamp. Even if it ended up failing, we built a treasure trove of memories there that we deserve to treasure forever.",
   },
   {
-    year: 'Now',
-    title: "A subject he didn't choose, in a life he's still building",
-    text: "He studies it anyway. Attends the classes. Sits the exams. Some go well. Some don't — not the way he'd hoped. And somewhere under the jokes we make about it, it still stings. We know. We see it.",
+    year: 'The nights',
+    title: 'Short hangouts turned all-nighters',
+    text: "A quick short-time gathering would somehow always turn into spending the entire night together. I've never experienced anything like what I've felt with you guys in my whole life.",
   },
+  {
+    year: 'About Neel',
+    title: 'Since it\'s his day',
+    text: "We should tell you The Most Reliable One. The best thing about you? You NEVER cancel a meeting. No matter what, you are always there with us.",
+  },
+  {
+    year: 'The catalyst',
+    title: 'The nickname u got',
+    text: "You didn't get your nickname by chance. Thank you for being with us and being the catalyst that brings us all together.",
+  },
+  {
+    year: 'The Advice',
+    title: 'You should follow Tasin\'s Three Rules',
+    text: "First: you should listen to Tasin's advice. Second: you should listen to Tasin. Third: you should listen to Tasin. Our advice to you, don't argue with Tasin—you will never win. Take note, Neel!",
+  },
+
+
 ]
 
 export const wishes = [
   {
-    name: 'The group',
-    text: "We laugh about 'the senior' more than we probably should. But we also see how much you've carried quietly. Today isn't about that. Today is just — happy birthday, blue boy.",
+    name: "Tasin's Three Rules",
+    text: "First: you should listen to Tasin's advice. Second: you should listen to Tasin. Third: don't argue with Tasin—you will never win. Take note, Neel!",
   },
   {
-    name: 'On books',
-    text: "You've always finished the book everyone else gave up on by chapter three. That patience is not nothing. It's the exact same patience this year needed from you.",
+    name: 'The Reliable One',
+    text: "The best thing about you? You NEVER cancel a meeting. No matter what, you are always there with us.",
   },
   {
-    name: 'On design',
-    text: "You notice the one pixel that's off before anyone else does. This site probably has three things you'd already redesign. We left them for you to fix, on purpose.",
+    name: 'The Catalyst',
+    text: "You didn't get your nickname by chance. Thank you for being with us and being the catalyst that brings us all together.",
   },
   {
-    name: 'On Apu bhai',
-    text: 'Botany to Google isn\u2019t a fluke story, it\u2019s a template. Subjects are a starting seat, not a life sentence. Yours doesn\u2019t know yet what you\u2019re going to do with it.',
+    name: 'On Nicknames & Memories',
+    text: "From giving each other silly nicknames to those full-night sessions—we've built something truly special. Happy Birthday, Neel!",
   },
 ]
 
 export const hero = {
   date: '07 September',
-  eyebrow: "Every sky needs one",
+  eyebrow: 'Every sky needs one',
   title: 'Neel',
   subtitle:
-    "Blue, like his name means. Blue, like the sky he keeps looking up at. This is his corner of it — mapped, for one day, just for him.",
+    'The catalyst, the one who never cancels, and the core of our unusual journey. This corner of the internet is mapped today just for him.',
 }
